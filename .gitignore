@@ -1,0 +1,59 @@
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+htmlcov/
+.cache/
+
+# --- Environments & tooling ---
+venv/
+.venv/
+env/
+ENV/
+.venv*/
+pip-wheel-metadata/
+pip-log.txt
+
+# --- Build / packaging / artifacts ---
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+site/
+wheelhouse/
+
+# --- Logs & local data ---
+*.log
+logs/
+*.sqlite3
+
+# --- Environment variables (keep secrets out of git) ---
+.env
+.env.*
+!.env.example   # track a template for teammates
+
+# --- Jupyter (in case you experiment) ---
+.ipynb_checkpoints/
+
+# --- Node (if you add a tiny frontend later) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- Coverage / reports ---
+coverage.xml
+.pytest_cache/
